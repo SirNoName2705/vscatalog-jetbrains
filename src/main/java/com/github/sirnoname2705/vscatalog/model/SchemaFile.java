@@ -23,7 +23,7 @@ public class SchemaFile extends JsonFile implements JsonSchemaFileProvider {
             com.github.sirnoname2705.vscatalog.settings.Util.SCHEMA_VERSION_PATTERN_STRING);
     private final String name;
     private final String description;
-    private final String VSVersion = "1.19.8";
+    private final String VSVersion = "1.20.5";
     private JsonSchemaVersion schemaVersion;
     private List<FileMatch> fileMatch = new ArrayList<>();
 

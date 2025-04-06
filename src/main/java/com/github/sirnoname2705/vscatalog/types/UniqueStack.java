@@ -35,6 +35,7 @@ public class UniqueStack<T> {
         return item;
     }
 
+    @SuppressWarnings("unchecked")
     public T[] toArray() {
         return (T[]) stack.toArray();
     }
